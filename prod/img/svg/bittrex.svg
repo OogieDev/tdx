@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68.5 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0082d7;
+      }
+    </style>
+  </defs>
+  <title>bittrex</title>
+  <g>
+    <g>
+      <g id="mask-2">
+        <path id="path-1" class="cls-1" d="M14,0H68.5V54.5H14V26h7V48H61.5V7H21v4H14V0ZM0,15.5H54.5V44h-7V22H6.5V63h41V58.5h7V70H0V15.5Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

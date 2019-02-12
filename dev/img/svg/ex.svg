@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #88bdf3;
+      }
+
+      .cls-2 {
+        fill: #3075ee;
+      }
+
+      .cls-3 {
+        fill: #5795f1;
+      }
+
+      .cls-4 {
+        fill: #205fec;
+      }
+
+      .cls-5 {
+        fill: #134bef;
+      }
+
+      .cls-6 {
+        fill: #0932e8;
+      }
+
+      .cls-7 {
+        fill: #164bea;
+      }
+
+      .cls-8 {
+        fill: #3170f1;
+      }
+    </style>
+  </defs>
+  <title>ex</title>
+  <g>
+    <circle class="cls-1" cx="9" cy="4.07" r="4.07"/>
+    <circle class="cls-2" cx="9" cy="13.93" r="4.07"/>
+    <circle class="cls-3" cx="13.93" cy="9" r="4.07"/>
+    <circle class="cls-4" cx="4.07" cy="9" r="4.07"/>
+    <path class="cls-5" d="M8,8A4.08,4.08,0,0,1,5,5,4.08,4.08,0,0,1,8,8H8Z"/>
+    <path class="cls-6" d="M5,13a4.08,4.08,0,0,1,3-3A4.08,4.08,0,0,1,5,13Z"/>
+    <path class="cls-7" d="M10,10a4.08,4.08,0,0,1,3,3A4.08,4.08,0,0,1,10,10Z"/>
+    <path class="cls-8" d="M13,5a4.08,4.08,0,0,1-3,3A4.08,4.08,0,0,1,13,5Z"/>
+  </g>
+</svg>

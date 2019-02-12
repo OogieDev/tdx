@@ -1,0 +1,81 @@
+$accent: #4E8BF6
+$body-color: #EFF2F5
+$results-width: 24%
+$td-width: 15.2%
+
+.mn-btn
+  cursor: pointer
+  padding: 8px 30px
+  border: none
+  border-radius: 3px
+  border: 1px solid transparent
+  transition: .5s background-color ease, .5s color ease, .5s border-color ease
+
+
+
+.menu-toggle
+  flex: 0 0 auto
+  width: 60px
+  height: 60px
+  cursor: pointer
+  position: relative
+
+.hamburger, .cross
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.hamburger span
+  display: block
+  width: 25px
+  height: 2px
+  margin-bottom: 7px
+  overflow: hidden
+  position: relative
+  &:last-child
+    margin: 0
+  &:before
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: rgb(15, 15, 15)
+  &:after
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: rgb(15, 15, 15)
+    transform: translateX(-200%)
+    transition: transform ease 300ms
+    transform: translateX(0)
+  &:nth-child(2)
+    &:before, &:after
+      transition-delay: 75ms
+  &:last-child
+    &:before, &:after
+      transition-delay: 150ms
+
+.menu-toggle
+  &.active .hamburger span
+    &:before
+      transform: translateX(100%)
+    &:after
+      transform: translateX(200%)
+
+.cross span
+  display: block
+  width: 25px
+  height: 2px
+  background-color: rgb(15, 15, 15)
+  transform: translateY(50%) rotate(45deg) scaleX(0)
+  transition: transform ease 200ms
+  &:last-child
+    transform: translateY(-50%) rotate(-45deg) scaleX(0)
+
+.menu-toggle.active .cross span
+  transition-delay: 450ms
+  transform: translateY(50%) rotate(45deg) scaleX(1)
+  &:last-child
+    transform: translateY(-50%) rotate(-45deg) scaleX(1)
